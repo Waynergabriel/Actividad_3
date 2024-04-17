@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Actividad_3</string>
+    <string name="tvTitulo1">Gestion Recursos</string>
+    <string name="tvVersionAndroidLB">1.Version Android:</string>
+    <string name="tvVersionAndroid" />
+    <string name="tvLight">2.Flashlight:</string>
+    <string name="btnOff">Off</string>
+    <string name="btnOn">On</string>
+    <string name="tvLevelBaterryLB">3.Level of Baterry</string>
+    <string name="tvLevelBaterry" />
+    <string name="pbLevelBaterry" />
+    <string name="tvConectionLB">4.Conection</string>
+    <string name="tvConexion" />
+    <string name="tvResponsive" />
+    <string name="tvTitulo2">Gestion Permisos</string>
+    <string name="tvDactilar">Status Permission Fingerprint</string>
+    <string name="tvCamera">Status Permission Camera</string>
+    <string name="tvEws">Status Permission External Storage</string>
+    <string name="tvRs">Status Permission Read Storage</string>
+    <string name="tvInternet">Status Permission Internet</string>
+    <string name="btnChekPermission">Check Permission</string>
+    <string name="btnRequestPermission">Request Permission Camera</string>
+
+    <!-- Acceso al GPS y a los Contactos -->
+    <string name="tvGPS">Status Permission GPS</string>
+    <string name="tvContactos">Status Permission Contactos</string>
+
+    <!-- Creación del documento txt -->
+    <string name="etArchivotxt" />
+    <string name="etFileName" />
+    <string name="btnCreatetxt">Descargar Documento</string>
+    <string name="tvTitulo3">Descargar Archivo TXT</string>
+
+</resources>

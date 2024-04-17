@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="13.5dp"
+    android:layout_marginTop="20dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tvTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/tvTitulo1" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroidLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvVersionAndroidLB" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="@string/tvVersionAndroid"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvLight" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOff" />
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnOn"
+            android:layout_marginBottom="8dp"/>
+
+    </TableRow>
+
+
+
+
+    <TextView
+        android:id="@+id/tvLevelBaterryLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvLevelBaterryLB" />
+
+    <TextView
+        android:id="@+id/tvLevelBaterry"
+        android:layout_width="match_parent"
+        android:textSize="17sp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLevelBaterry" />
+
+    <ProgressBar
+        android:id="@+id/pbLevelBaterry"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/pbLevelBaterry"
+        android:max="100"
+        android:progress="1"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvConectionLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvConectionLB" />
+
+    <TextView
+        android:id="@+id/tvConexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvConexion" />
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/tvTitulo2"
+        />
+
+    <TextView
+        android:id="@+id/tvDactilar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:textSize="18sp"
+        android:text="@string/tvDactilar" />
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:textSize="18sp"
+        android:text="@string/tvCamera" />
+
+    <TextView
+        android:id="@+id/tvEws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:textSize="18sp"
+        android:text="@string/tvEws" />
+
+    <TextView
+        android:id="@+id/tvRs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:textSize="18sp"
+        android:text="@string/tvRs" />
+
+
+    <TextView
+        android:id="@+id/tvInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:textSize="18sp"
+        android:text="@string/tvInternet" />
+
+    <TextView
+        android:id="@+id/tvGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:text="@string/tvGPS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#C39BD3"
+        android:text="@string/tvContactos"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnChekPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChekPermission" />
+
+    <Button
+        android:id="@+id/btnRequestPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRequestPermission" />
+
+    <TextView
+        android:id="@+id/tvTitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tvTitulo3"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/etArchivotxt"
+        android:textSize="17sp"
+        android:autofillHints=""/>
+
+    <Button
+        android:id="@+id/btnCreatetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCreatetxt" />
+
+    <TextView
+        android:id="@+id/tvResposive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvResponsive" />
+
+</LinearLayout>
